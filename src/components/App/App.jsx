@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import css from './App.module.css';
-import ContactList from './components/ContactList/ContactList';
-import SearchBox from './components/SearchBox/SearchBox';
-import Notification from './components/Notification/Notification';
-import ContactForm from './components/ContactForm/ContactForm';
+import ContactList from '../ContactList/ContactList';
+import SearchBox from '../SearchBox/SearchBox';
+import Notification from '../Notification/Notification';
+import ContactForm from '../ContactForm/ContactForm';
 
 function App() {
   const [contacts, setContacts] = useState(() => {
