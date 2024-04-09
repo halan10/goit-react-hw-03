@@ -1,0 +1,24 @@
+.card {
+  padding: 4px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  display: grid;
+}
+.field {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.btnDelete {
+  color: darkgray;
+  grid-column-start: 2;
+  grid-row-end: 1;
+  grid-row-start: 3;
+  margin: 20px;
+}
